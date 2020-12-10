@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "ToggleMiser",
     "version": "1.0",
-    "description": "Checks for a list of TDCS flags and then allows a user to easily modify them in local storage.",
+    "description": "Checks for a list of local storage flags and then allows a user to easily modify them.",
     "icons": {
         "48": "assets/img/unicorn-logo.svg"
     },
@@ -12,7 +12,7 @@
     "browser_action": {
         "default_icon": "assets/img/unicorn-logo.svg",
         "default_title": "ToggleMiser",
-        "default_popup": "src/app/index.html"
+        "default_popup": "app/build/index.html"
     },
     "web_accessible_resources": [
         "assets/img/*.jpg",
